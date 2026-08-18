@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+build/
+dist/
+output/
+INPUT/
+.qodo/
+*.log
+config.env
+ipm-watch
+TESTR*.01
+TESTR*.01.UAT
+*.csv

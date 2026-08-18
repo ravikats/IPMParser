@@ -1,0 +1,154 @@
+{
+  "2": {
+    "name": "Primary Account Number (PAN)",
+    "format": "LLVAR",
+    "max_length": 19,
+    "type": "n"
+  },
+  "3": {
+    "name": "Processing Code",
+    "format": "FIXED",
+    "length": 6,
+    "type": "n"
+  },
+  "4": {
+    "name": "Amount, Transaction",
+    "format": "FIXED",
+    "length": 12,
+    "type": "n"
+  },
+  "12": {
+    "name": "Date and Time, Local Transaction",
+    "format": "FIXED",
+    "length": 12,
+    "type": "n",
+    "format_hint": "YYMMDDhhmmss"
+  },
+  "22": {
+    "name": "Point-of-Service Data",
+    "format": "FIXED",
+    "length": 12,
+    "type": "ans"
+  },
+  "23": {
+      "name": "Pan-Seq",
+      "format": "FIXED",
+      "length": 3,
+      "type": "ans"
+  },
+  "24": {
+    "name": "Function Code",
+    "format": "FIXED",
+    "length": 3,
+    "type": "n"
+  },
+  "25": {
+    "name": "Message Reason Code",
+    "format": "FIXED",
+    "length": 4,
+    "type": "n"
+  },
+  "26": {
+    "name": "Card Acceptor Business Code",
+    "format": "FIXED",
+    "length": 4,
+    "type": "n"
+  },
+  "31": {
+    "name": "Acquirer Reference Data",
+    "format": "LLVAR",
+    "max_length": 23,
+    "type": "ans"
+  },
+  "32": {
+    "name": "Acquiring Institution ID Code",
+    "format": "LLVAR",
+    "max_length": 11,
+    "type": "n"
+  },
+  "33": {
+    "name": "Forwarding Institution ID Code",
+    "format": "LLVAR",
+    "max_length": 11,
+    "type": "n"
+  },
+  "37": {
+    "name": "Retrieval Reference Number",
+    "format": "FIXED",
+    "length": 12,
+    "type": "an"
+  },
+  "38": {
+    "name": "Approval Code",
+    "format": "FIXED",
+    "length": 6,
+    "type": "an"
+  },
+  "40": {
+    "name": "Service Code",
+    "format": "FIXED",
+    "length": 3,
+    "type": "n"
+  },
+  "41": {
+    "name": "Card Acceptor Terminal ID",
+    "format": "FIXED",
+    "length": 8,
+    "type": "ans"
+  },
+  "42": {
+    "name": "Card Acceptor ID Code",
+    "format": "FIXED",
+    "length": 15,
+    "type": "ans"
+  },
+  "43": {
+    "name": "Card Acceptor Name/Location",
+    "format": "LLVAR",
+    "max_length": 99,
+    "type": "ans"
+  },
+  "48": {
+    "name": "Additional Data",
+    "format": "LLLVAR",
+    "max_length": 999,
+    "type": "ans",
+    "parser": "PDS"
+  },
+  "49": {
+    "name": "Currency Code, Transaction",
+    "format": "FIXED",
+    "length": 3,
+    "type": "n"
+  },
+  "54": {
+    "name": "Amounts, Additional",
+    "format": "LLLVAR",
+    "max_length": 240,
+    "type": "ans"
+  },
+  "55": {
+    "name": "Emv data",
+    "format": "lLLVAR",
+    "max_length": 255,
+    "type": "b"
+  },
+  "63": {
+    "name": "Network Data",
+    "format": "LLLVAR",
+    "max_length": 999,
+    "type": "ans"
+  },
+  "71": {
+    "name": "Message Number",
+    "format": "FIXED",
+    "length": 8,
+    "type": "n"
+  },
+  "94": {
+    "name": "Service Indicator",
+    "format": "LLVAR",
+    "length": 11,
+    "type": "ans"
+  }
+}

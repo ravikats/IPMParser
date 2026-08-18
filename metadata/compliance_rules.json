@@ -1,0 +1,224 @@
+{
+  "rules": [
+    {
+      "id": "ACCEPTOR_CONTACT_REQUIRED",
+      "description": "Acceptor contact information must be present in PDS 0170",
+      "severity": "ERROR",
+      "type": "required",
+      "path": "de48_pds.0170.value",
+      "mtis": ["1240"]
+    },
+    {
+      "id": "ACCEPTOR_CONTACT_MAX_LENGTH",
+      "description": "Acceptor contact information may not exceed 12 digits",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "de48_pds.0170.value",
+      "max": 14,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE2_PAN_MIN_LENGTH",
+      "description": "DE 2 (Primary Account Number) must be at least 6 digits (IPM 06-19)",
+      "severity": "ERROR",
+      "type": "min_length",
+      "path": "fields.2",
+      "min": 6,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE2_PAN_MAX_LENGTH",
+      "description": "DE 2 (Primary Account Number) may not exceed 19 digits (IPM 06-19)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.2",
+      "max": 19,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE31_ACQUIRER_REFERENCE_MAX_LENGTH",
+      "description": "DE 31 (Acquirer Reference Data) must be exactly 23 positions (IPM fixed 23)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.31",
+      "max": 23,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE32_ACQUIRING_INSTITUTION_MAX_LENGTH",
+      "description": "DE 32 (Acquiring Institution ID Code) may not exceed 11 positions (IPM 01-11)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.32",
+      "max": 11,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE33_FORWARDING_INSTITUTION_MIN_LENGTH",
+      "description": "DE 33 (Forwarding Institution ID Code) must be at least 6 positions (IPM 06-11)",
+      "severity": "ERROR",
+      "type": "min_length",
+      "path": "fields.33",
+      "min": 6,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE33_FORWARDING_INSTITUTION_MAX_LENGTH",
+      "description": "DE 33 (Forwarding Institution ID Code) may not exceed 11 positions (IPM 06-11)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.33",
+      "max": 11,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE43_ACCEPTOR_NAME_MIN_LENGTH",
+      "description": "DE 43 (Acceptor Name and Location) must be at least 20 positions (IPM 20-99)",
+      "severity": "ERROR",
+      "type": "min_length",
+      "path": "fields.43",
+      "min": 20,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE43_ACCEPTOR_NAME_MAX_LENGTH",
+      "description": "DE 43 (Acceptor Name and Location) may not exceed 99 positions (IPM 20-99)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.43",
+      "max": 99,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE43_SUBFIELD1_MAX_LENGTH",
+      "description": "DE 43 subfield 1 (Acceptor Name) may not exceed 22 positions (IPM max 22)",
+      "severity": "ERROR",
+      "type": "subfield_max_length",
+      "path": "fields.43",
+      "delimiter": "\\",
+      "subfield": 1,
+      "max": 22,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE43_SUBFIELD2_MAX_LENGTH",
+      "description": "DE 43 subfield 2 (Acceptor Street Address) may not exceed 48 positions (IPM max 48)",
+      "severity": "ERROR",
+      "type": "subfield_max_length",
+      "path": "fields.43",
+      "delimiter": "\\",
+      "subfield": 2,
+      "max": 48,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE43_SUBFIELD3_MAX_LENGTH",
+      "description": "DE 43 subfield 3 (Acceptor City Name) may not exceed 13 positions (IPM max 13)",
+      "severity": "ERROR",
+      "type": "subfield_max_length",
+      "path": "fields.43",
+      "delimiter": "\\",
+      "subfield": 3,
+      "max": 13,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE54_ADDITIONAL_AMOUNTS_MIN_LENGTH",
+      "description": "DE 54 (Amounts, Additional) must be at least 20 positions in increments of 20 (IPM 020-240)",
+      "severity": "ERROR",
+      "type": "min_length",
+      "path": "fields.54",
+      "min": 20,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE54_ADDITIONAL_AMOUNTS_MAX_LENGTH",
+      "description": "DE 54 (Amounts, Additional) may not exceed 240 positions (IPM 020-240)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.54",
+      "max": 240,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE55_ICC_DATA_MAX_LENGTH",
+      "description": "DE 55 (Integrated Circuit Card System-Related Data) may not exceed 255 bytes (IPM 001-255; hex string <= 510 chars)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.55",
+      "max": 510,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE63_TLC_MAX_LENGTH",
+      "description": "DE 63 (Transaction Life Cycle ID) must be exactly 16 positions (IPM value 016)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.63",
+      "max": 16,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE94_ORIGINATOR_INSTITUTION_MIN_LENGTH",
+      "description": "DE 94 (Transaction Originator Institution ID Code) must be at least 6 positions (IPM 06-11)",
+      "severity": "ERROR",
+      "type": "min_length",
+      "path": "fields.94",
+      "min": 6,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE94_ORIGINATOR_INSTITUTION_MAX_LENGTH",
+      "description": "DE 94 (Transaction Originator Institution ID Code) may not exceed 11 positions (IPM 06-11)",
+      "severity": "ERROR",
+      "type": "max_length",
+      "path": "fields.94",
+      "max": 11,
+      "strip": true,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE94_ORIGINATOR_INSTITUTION_REQUIRED",
+      "description": "DE 94 (Transaction Originator Institution ID Code) is required",
+      "severity": "ERROR",
+      "type": "required",
+      "path": "fields.94",
+      "mtis": ["1240"]
+       }
+
+  ],
+  "file_rules": [
+    {
+      "id": "FILE_TOTAL_COUNT",
+      "description": "File message count must match the total number of records",
+      "severity": "ERROR",
+      "type": "file_count",
+      "footer_path": "pds.0306.value"
+    },
+    {
+      "id": "FILE_TOTAL_AMOUNT",
+      "description": "File amount checksum must match the sum of DE4 over 1240 records",
+      "severity": "ERROR",
+      "type": "file_amount",
+      "footer_path": "pds.0301.value",
+      "field_path": "fields.4",
+      "record_mti": "1240"
+    }
+  ]
+}

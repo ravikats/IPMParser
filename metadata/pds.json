@@ -1,0 +1,2267 @@
+{
+    "0001": {
+        "tag": "0001",
+        "name": "Mastercard Mapping Service Account Number",
+        "page": 6
+    },
+    "0002": {
+        "tag": "0002",
+        "name": "GCMS Product Identifier",
+        "page": 6
+    },
+    "0003": {
+        "tag": "0003",
+        "name": "Licensed Product Identifier",
+        "page": 6
+    },
+    "0004": {
+        "tag": "0004",
+        "name": "Funding Account Information",
+        "page": 6
+    },
+    "0005": {
+        "tag": "0005",
+        "name": "Message Error Indicator",
+        "page": 6
+    },
+    "0006": {
+        "tag": "0006",
+        "name": "Applied Business Service Arrangement",
+        "page": 6
+    },
+    "0010": {
+        "tag": "0010",
+        "name": "Currency Rate Service",
+        "page": 6
+    },
+    "0011": {
+        "tag": "0011",
+        "name": "Additional PAN Data",
+        "page": 6
+    },
+    "0014": {
+        "tag": "0014",
+        "name": "Digital Account Reference Number",
+        "page": 7
+    },
+    "0015": {
+        "tag": "0015",
+        "name": "Clearing Currency Conversion Identifier",
+        "page": 7
+    },
+    "0016": {
+        "tag": "0016",
+        "name": "Digital Service Provider",
+        "page": 7
+    },
+    "0017": {
+        "tag": "0017",
+        "name": "Interchange Structure Indicator",
+        "page": 7
+    },
+    "0018": {
+        "tag": "0018",
+        "name": "Acceptance Data",
+        "page": 7
+    },
+    "0020": {
+        "tag": "0020",
+        "name": "Digital Commerce Solutions Indicators",
+        "page": 7
+    },
+    "0021": {
+        "tag": "0021",
+        "name": "Transaction Type Indicator",
+        "page": 7
+    },
+    "0022": {
+        "tag": "0022",
+        "name": "Additional Terminal Operating Environments",
+        "page": 7
+    },
+    "0023": {
+        "tag": "0023",
+        "name": "Terminal Type",
+        "page": 7
+    },
+    "0025": {
+        "tag": "0025",
+        "name": "Message Reversal Indicator",
+        "page": 7
+    },
+    "0026": {
+        "tag": "0026",
+        "name": "File Reversal Indicator",
+        "page": 7
+    },
+    "0027": {
+        "tag": "0027",
+        "name": "Flex Code",
+        "page": 7
+    },
+    "0028": {
+        "tag": "0028",
+        "name": "Mastercard Merchant Presented QR [MPQR] Receiving Account Number",
+        "page": 7
+    },
+    "0029": {
+        "tag": "0029",
+        "name": "QR Dynamic Code Data",
+        "page": 7
+    },
+    "0030": {
+        "tag": "0030",
+        "name": "QR Initiated Transaction",
+        "page": 7
+    },
+    "0042": {
+        "tag": "0042",
+        "name": "Merchant Capability",
+        "page": 7
+    },
+    "0043": {
+        "tag": "0043",
+        "name": "Transaction Type Identifier",
+        "page": 7
+    },
+    "0044": {
+        "tag": "0044",
+        "name": "Program Participation Indicator",
+        "page": 7
+    },
+    "0045": {
+        "tag": "0045",
+        "name": "Mastercard Generated Installment Identifier",
+        "page": 7
+    },
+    "0046": {
+        "tag": "0046",
+        "name": "Japan Common Merchant Code",
+        "page": 7
+    },
+    "0052": {
+        "tag": "0052",
+        "name": "Electronic Commerce Security Level Indicator",
+        "page": 7
+    },
+    "0056": {
+        "tag": "0056",
+        "name": "Mastercard Electronic Card Indicator",
+        "page": 7
+    },
+    "0057": {
+        "tag": "0057",
+        "name": "Transaction Category Indicator",
+        "page": 7
+    },
+    "0058": {
+        "tag": "0058",
+        "name": "Token Assurance Level",
+        "page": 7
+    },
+    "0059": {
+        "tag": "0059",
+        "name": "Token Requestor ID",
+        "page": 7
+    },
+    "0068": {
+        "tag": "0068",
+        "name": "Financial Account Information",
+        "page": 7
+    },
+    "0071": {
+        "tag": "0071",
+        "name": "Chip to Magnetic Stripe Conversion Service Indicator",
+        "page": 8
+    },
+    "0072": {
+        "tag": "0072",
+        "name": "Authentication Indicator",
+        "page": 8
+    },
+    "0073": {
+        "tag": "0073",
+        "name": "Additional Commercial Issuer Data",
+        "page": 8
+    },
+    "0080": {
+        "tag": "0080",
+        "name": "Amount, Tax",
+        "page": 8
+    },
+    "0105": {
+        "tag": "0105",
+        "name": "File ID",
+        "page": 8
+    },
+    "0106": {
+        "tag": "0106",
+        "name": "Clearing Optimizer Information",
+        "page": 8
+    },
+    "0110": {
+        "tag": "0110",
+        "name": "Transmission ID",
+        "page": 8
+    },
+    "0122": {
+        "tag": "0122",
+        "name": "Processing Mode",
+        "page": 8
+    },
+    "0137": {
+        "tag": "0137",
+        "name": "Fee Collection Control Number",
+        "page": 8
+    },
+    "0138": {
+        "tag": "0138",
+        "name": "Source Message Number ID",
+        "page": 8
+    },
+    "0140": {
+        "tag": "0140",
+        "name": "Amount, Cardholder Billing Amounts USD",
+        "page": 8
+    },
+    "0141": {
+        "tag": "0141",
+        "name": "Customer Currency Conversion Revenue Data",
+        "page": 8
+    },
+    "0142": {
+        "tag": "0142",
+        "name": "Additional Service Data For Issuers",
+        "page": 8
+    },
+    "0145": {
+        "tag": "0145",
+        "name": "Amount, Alternate Transaction Fee",
+        "page": 8
+    },
+    "0146": {
+        "tag": "0146",
+        "name": "Amounts, Transaction Fee",
+        "page": 8
+    },
+    "0147": {
+        "tag": "0147",
+        "name": "Extended Precision Amounts",
+        "page": 8
+    },
+    "0148": {
+        "tag": "0148",
+        "name": "Currency Exponents",
+        "page": 8
+    },
+    "0149": {
+        "tag": "0149",
+        "name": "Currency Codes, Amounts, Original",
+        "page": 8
+    },
+    "0150": {
+        "tag": "0150",
+        "name": "Additional Recurring Payments Information",
+        "page": 8
+    },
+    "0157": {
+        "tag": "0157",
+        "name": "Alternate Processor Indicator",
+        "page": 8
+    },
+    "0158": {
+        "tag": "0158",
+        "name": "Business Activity",
+        "page": 8
+    },
+    "0159": {
+        "tag": "0159",
+        "name": "Settlement Data",
+        "page": 9
+    },
+    "0160": {
+        "tag": "0160",
+        "name": "Settlement Data, Multiple",
+        "page": 9
+    },
+    "0164": {
+        "tag": "0164",
+        "name": "Currency Cross Rates",
+        "page": 9
+    },
+    "0165": {
+        "tag": "0165",
+        "name": "Settlement Indicator",
+        "page": 9
+    },
+    "0170": {
+        "tag": "0170",
+        "name": "Acceptor Inquiry Information",
+        "page": 9
+    },
+    "0171": {
+        "tag": "0171",
+        "name": "Alternate Acceptor Description Data",
+        "page": 9
+    },
+    "0172": {
+        "tag": "0172",
+        "name": "Sole Proprietor Name",
+        "page": 9
+    },
+    "0173": {
+        "tag": "0173",
+        "name": "Legal Corporate Name",
+        "page": 9
+    },
+    "0174": {
+        "tag": "0174",
+        "name": "Dun & Bradstreet Number",
+        "page": 9
+    },
+    "0175": {
+        "tag": "0175",
+        "name": "Acceptor URL Address",
+        "page": 9
+    },
+    "0176": {
+        "tag": "0176",
+        "name": "Mastercard Assigned ID",
+        "page": 9
+    },
+    "0177": {
+        "tag": "0177",
+        "name": "Cross-border",
+        "page": 9
+    },
+    "0178": {
+        "tag": "0178",
+        "name": "Alternate Acceptor Description Data 2",
+        "page": 9
+    },
+    "0179": {
+        "tag": "0179",
+        "name": "Long Running Transaction [LRT] Indicator",
+        "page": 9
+    },
+    "0180": {
+        "tag": "0180",
+        "name": "Domestic Acceptor Tax ID",
+        "page": 9
+    },
+    "0181": {
+        "tag": "0181",
+        "name": "Installment Payment Data",
+        "page": 9
+    },
+    "0182": {
+        "tag": "0182",
+        "name": "Installment Payment Cardholder Statement Data",
+        "page": 10
+    },
+    "0183": {
+        "tag": "0183",
+        "name": "Brazil Post-Dated Transaction Data",
+        "page": 10
+    },
+    "0184": {
+        "tag": "0184",
+        "name": "Directory Server Transaction ID",
+        "page": 10
+    },
+    "0185": {
+        "tag": "0185",
+        "name": "Accountholder Authentication Value",
+        "page": 10
+    },
+    "0186": {
+        "tag": "0186",
+        "name": "Program Protocol",
+        "page": 10
+    },
+    "0188": {
+        "tag": "0188",
+        "name": "Private Data, Proprietary Service Data",
+        "page": 10
+    },
+    "0189": {
+        "tag": "0189",
+        "name": "Point-of-Interaction [POI] Phone Data",
+        "page": 10
+    },
+    "0190": {
+        "tag": "0190",
+        "name": "Partner ID Code",
+        "page": 10
+    },
+    "0191": {
+        "tag": "0191",
+        "name": "Originating Message Format",
+        "page": 10
+    },
+    "0192": {
+        "tag": "0192",
+        "name": "Payment Transaction Initiator",
+        "page": 10
+    },
+    "0194": {
+        "tag": "0194",
+        "name": "Remote Payments Program Data",
+        "page": 10
+    },
+    "0195": {
+        "tag": "0195",
+        "name": "Installment Data",
+        "page": 10
+    },
+    "0196": {
+        "tag": "0196",
+        "name": "Mobile Phone Reload Data",
+        "page": 10
+    },
+    "0197": {
+        "tag": "0197",
+        "name": "National Use Tax Data",
+        "page": 10
+    },
+    "0198": {
+        "tag": "0198",
+        "name": "Device Type",
+        "page": 11
+    },
+    "0199": {
+        "tag": "0199",
+        "name": "Funding Transaction Information",
+        "page": 11
+    },
+    "0200": {
+        "tag": "0200",
+        "name": "Fraud Notification Date",
+        "page": 11
+    },
+    "0202": {
+        "tag": "0202",
+        "name": "Primary Account Number [PAN] Syntax Error",
+        "page": 11
+    },
+    "0204": {
+        "tag": "0204",
+        "name": "Amount, Syntax Error",
+        "page": 11
+    },
+    "0205": {
+        "tag": "0205",
+        "name": "Syntax Return, Message Error Indicator",
+        "page": 11
+    },
+    "0206": {
+        "tag": "0206",
+        "name": "Late Presentment Indicator",
+        "page": 11
+    },
+    "0207": {
+        "tag": "0207",
+        "name": "Wallet Identifier",
+        "page": 11
+    },
+    "0208": {
+        "tag": "0208",
+        "name": "Additional Merchant Data",
+        "page": 11
+    },
+    "0209": {
+        "tag": "0209",
+        "name": "Independent Sales Organization ID",
+        "page": 11
+    },
+    "0210": {
+        "tag": "0210",
+        "name": "Transit Program",
+        "page": 11
+    },
+    "0211": {
+        "tag": "0211",
+        "name": "Terminal Compliant Indicator",
+        "page": 11
+    },
+    "0213": {
+        "tag": "0213",
+        "name": "Merchant Country of Origin",
+        "page": 11
+    },
+    "0216": {
+        "tag": "0216",
+        "name": "Additional Acceptor Data",
+        "page": 11
+    },
+    "0218": {
+        "tag": "0218",
+        "name": "Cardholder/Merchant Initiated Transaction Indicator",
+        "page": 11
+    },
+    "0220": {
+        "tag": "0220",
+        "name": "Brazil Merchant Tax ID",
+        "page": 11
+    },
+    "0221": {
+        "tag": "0221",
+        "name": "Domestic Merchant Tax ID",
+        "page": 11
+    },
+    "0222": {
+        "tag": "0222",
+        "name": "Mexico Domestic Dispute Resolution Documentation Image-Related Data",
+        "page": 11
+    },
+    "0225": {
+        "tag": "0225",
+        "name": "Syntax Return, Original Message Reason Code",
+        "page": 11
+    },
+    "0228": {
+        "tag": "0228",
+        "name": "Retrieval Document Code",
+        "page": 11
+    },
+    "0230": {
+        "tag": "0230",
+        "name": "Fulfillment Document Code",
+        "page": 11
+    },
+    "0235": {
+        "tag": "0235",
+        "name": "Mastercard Assigned Incentive Identifier",
+        "page": 11
+    },
+    "0241": {
+        "tag": "0241",
+        "name": "MasterCom Control Number",
+        "page": 11
+    },
+    "0243": {
+        "tag": "0243",
+        "name": "MasterCom Retrieval Response Data",
+        "page": 11
+    },
+    "0244": {
+        "tag": "0244",
+        "name": "MasterCom Chargeback Support Documentation Dates",
+        "page": 12
+    },
+    "0245": {
+        "tag": "0245",
+        "name": "MasterCom Arbitration Chargeback Sender Processing Date",
+        "page": 12
+    },
+    "0246": {
+        "tag": "0246",
+        "name": "MasterCom Sender Memo",
+        "page": 12
+    },
+    "0247": {
+        "tag": "0247",
+        "name": "MasterCom Receiver Memo",
+        "page": 12
+    },
+    "0248": {
+        "tag": "0248",
+        "name": "MasterCom Image Review Memo",
+        "page": 12
+    },
+    "0249": {
+        "tag": "0249",
+        "name": "MasterCom Record ID",
+        "page": 12
+    },
+    "0250": {
+        "tag": "0250",
+        "name": "MasterCom Endpoints",
+        "page": 12
+    },
+    "0251": {
+        "tag": "0251",
+        "name": "MasterCom Fulfillment Document Code",
+        "page": 12
+    },
+    "0252": {
+        "tag": "0252",
+        "name": "MasterCom Image Metadata",
+        "page": 12
+    },
+    "0253": {
+        "tag": "0253",
+        "name": "MasterCom System Enhanced Data",
+        "page": 12
+    },
+    "0254": {
+        "tag": "0254",
+        "name": "MasterCom Member Enhanced Data",
+        "page": 12
+    },
+    "0255": {
+        "tag": "0255",
+        "name": "MasterCom Message Type",
+        "page": 12
+    },
+    "0260": {
+        "tag": "0260",
+        "name": "Edit Exclusion Indicator",
+        "page": 12
+    },
+    "0261": {
+        "tag": "0261",
+        "name": "Risk Management Approval Code",
+        "page": 12
+    },
+    "0262": {
+        "tag": "0262",
+        "name": "Documentation Indicator",
+        "page": 12
+    },
+    "0264": {
+        "tag": "0264",
+        "name": "Original Retrieval Reason for Request",
+        "page": 12
+    },
+    "0265": {
+        "tag": "0265",
+        "name": "Initial Presentment/Fee Collection Data",
+        "page": 12
+    },
+    "0266": {
+        "tag": "0266",
+        "name": "First Chargeback/Fee Collection Return Data",
+        "page": 12
+    },
+    "0267": {
+        "tag": "0267",
+        "name": "Second Presentment/Fee Collection Resubmission Data",
+        "page": 12
+    },
+    "0268": {
+        "tag": "0268",
+        "name": "Amount, Partial Transaction",
+        "page": 12
+    },
+    "0270": {
+        "tag": "0270",
+        "name": "Embedded Interchange Data",
+        "page": 12
+    },
+    "0275": {
+        "tag": "0275",
+        "name": "Account Level Management [ALM] Service Data",
+        "page": 12
+    },
+    "0276": {
+        "tag": "0276",
+        "name": "Fee Amounts, Additional",
+        "page": 12
+    },
+    "0280": {
+        "tag": "0280",
+        "name": "Source File ID",
+        "page": 13
+    },
+    "0300": {
+        "tag": "0300",
+        "name": "Reconciled, File",
+        "page": 13
+    },
+    "0301": {
+        "tag": "0301",
+        "name": "File Amount, Checksum",
+        "page": 13
+    },
+    "0302": {
+        "tag": "0302",
+        "name": "Reconciled, Member Activity",
+        "page": 13
+    },
+    "0306": {
+        "tag": "0306",
+        "name": "File Message Counts",
+        "page": 13
+    },
+    "0358": {
+        "tag": "0358",
+        "name": "Reconciled, Business Activity",
+        "page": 13
+    },
+    "0359": {
+        "tag": "0359",
+        "name": "Reconciled, Settlement Activity",
+        "page": 13
+    },
+    "0360": {
+        "tag": "0360",
+        "name": "Reconciled, Transaction Sequence Identifier",
+        "page": 13
+    },
+    "0367": {
+        "tag": "0367",
+        "name": "Reconciled, Card Program Identifier",
+        "page": 13
+    },
+    "0368": {
+        "tag": "0368",
+        "name": "Reconciled, Transaction Function Group Code",
+        "page": 13
+    },
+    "0369": {
+        "tag": "0369",
+        "name": "Reconciled, Acquirer’s BIN",
+        "page": 13
+    },
+    "0370": {
+        "tag": "0370",
+        "name": "Reconciled, Account Range",
+        "page": 13
+    },
+    "0372": {
+        "tag": "0372",
+        "name": "Reconciled, Transaction Function",
+        "page": 13
+    },
+    "0374": {
+        "tag": "0374",
+        "name": "Reconciled, Processing Code",
+        "page": 13
+    },
+    "0375": {
+        "tag": "0375",
+        "name": "Member Reconciliation Indicator 1",
+        "page": 13
+    },
+    "0378": {
+        "tag": "0378",
+        "name": "Original/Reversal Totals Indicator",
+        "page": 13
+    },
+    "0380": {
+        "tag": "0380",
+        "name": "Debits, Transaction Amount In Transaction Currency",
+        "page": 13
+    },
+    "0381": {
+        "tag": "0381",
+        "name": "Credits, Transaction Amount in Transaction Currency",
+        "page": 13
+    },
+    "0384": {
+        "tag": "0384",
+        "name": "Amount, Net Transaction in Transaction Currency",
+        "page": 13
+    },
+    "0390": {
+        "tag": "0390",
+        "name": "Debits, Transaction Amount in Reconciliation Currency",
+        "page": 13
+    },
+    "0391": {
+        "tag": "0391",
+        "name": "Credits, Transaction Amount in Reconciliation Currency",
+        "page": 13
+    },
+    "0392": {
+        "tag": "0392",
+        "name": "Debits, Fee Amounts in Reconciliation Currency",
+        "page": 13
+    },
+    "0393": {
+        "tag": "0393",
+        "name": "Credits, Fee Amounts in Reconciliation Currency",
+        "page": 13
+    },
+    "0394": {
+        "tag": "0394",
+        "name": "Amount, Net Transaction in Reconciliation Currency",
+        "page": 13
+    },
+    "0395": {
+        "tag": "0395",
+        "name": "Amount, Net Fee in Reconciliation Currency",
+        "page": 13
+    },
+    "0396": {
+        "tag": "0396",
+        "name": "Amount, Net Total in Reconciliation Currency",
+        "page": 13
+    },
+    "0397": {
+        "tag": "0397",
+        "name": "Debits, Extended Precision Amount in Reconciliation Currency",
+        "page": 14
+    },
+    "0398": {
+        "tag": "0398",
+        "name": "Credits, Extended Precision Amount in Reconciliation Currency",
+        "page": 14
+    },
+    "0399": {
+        "tag": "0399",
+        "name": "Amount, Net Extended Precision in Reconciliation Currency",
+        "page": 14
+    },
+    "0400": {
+        "tag": "0400",
+        "name": "Debits, Transaction Number",
+        "page": 14
+    },
+    "0401": {
+        "tag": "0401",
+        "name": "Credits, Transaction Number",
+        "page": 14
+    },
+    "0402": {
+        "tag": "0402",
+        "name": "Total, Transaction Number",
+        "page": 14
+    },
+    "0444": {
+        "tag": "0444",
+        "name": "Resubmission Code",
+        "page": 14
+    },
+    "0445": {
+        "tag": "0445",
+        "name": "Original Transaction Information",
+        "page": 14
+    },
+    "0446": {
+        "tag": "0446",
+        "name": "Transaction Fee Amount, Syntax Error",
+        "page": 14
+    },
+    "0501": {
+        "tag": "0501",
+        "name": "Transaction Description",
+        "page": 14
+    },
+    "0502": {
+        "tag": "0502",
+        "name": "Custom Identifier",
+        "page": 14
+    },
+    "0503": {
+        "tag": "0503",
+        "name": "Travel Agency Sequence Number",
+        "page": 14
+    },
+    "0504": {
+        "tag": "0504",
+        "name": "Travel Agency Fee",
+        "page": 14
+    },
+    "0505": {
+        "tag": "0505",
+        "name": "Passenger Name",
+        "page": 14
+    },
+    "0506": {
+        "tag": "0506",
+        "name": "Ticket Number",
+        "page": 14
+    },
+    "0507": {
+        "tag": "0507",
+        "name": "Issuing Carrier",
+        "page": 14
+    },
+    "0508": {
+        "tag": "0508",
+        "name": "Customer Code",
+        "page": 14
+    },
+    "0509": {
+        "tag": "0509",
+        "name": "Issue Date",
+        "page": 14
+    },
+    "0510": {
+        "tag": "0510",
+        "name": "Travel Agency Code",
+        "page": 14
+    },
+    "0511": {
+        "tag": "0511",
+        "name": "Travel Agency Name",
+        "page": 14
+    },
+    "0512": {
+        "tag": "0512",
+        "name": "Total Fare",
+        "page": 14
+    },
+    "0513": {
+        "tag": "0513",
+        "name": "Total Fees",
+        "page": 14
+    },
+    "0514": {
+        "tag": "0514",
+        "name": "Total Taxes",
+        "page": 14
+    },
+    "0515": {
+        "tag": "0515",
+        "name": "Additional Acceptor Information",
+        "page": 14
+    },
+    "0516": {
+        "tag": "0516",
+        "name": "Austin-Tetra Number",
+        "page": 14
+    },
+    "0517": {
+        "tag": "0517",
+        "name": "NAICS Code",
+        "page": 14
+    },
+    "0518": {
+        "tag": "0518",
+        "name": "Line Item Date",
+        "page": 14
+    },
+    "0519": {
+        "tag": "0519",
+        "name": "Additional Fuel Location Information",
+        "page": 14
+    },
+    "0520": {
+        "tag": "0520",
+        "name": "Travel Date",
+        "page": 14
+    },
+    "0521": {
+        "tag": "0521",
+        "name": "Carrier Code",
+        "page": 14
+    },
+    "0522": {
+        "tag": "0522",
+        "name": "Service Class Code",
+        "page": 14
+    },
+    "0523": {
+        "tag": "0523",
+        "name": "City of Origin Airport Code",
+        "page": 14
+    },
+    "0524": {
+        "tag": "0524",
+        "name": "City of Destination Airport Code",
+        "page": 14
+    },
+    "0525": {
+        "tag": "0525",
+        "name": "Stop Over Code",
+        "page": 14
+    },
+    "0526": {
+        "tag": "0526",
+        "name": "Conjunction Ticket",
+        "page": 14
+    },
+    "0527": {
+        "tag": "0527",
+        "name": "Exchange Ticket",
+        "page": 15
+    },
+    "0528": {
+        "tag": "0528",
+        "name": "Coupon Number",
+        "page": 15
+    },
+    "0529": {
+        "tag": "0529",
+        "name": "Fare Basis Code",
+        "page": 15
+    },
+    "0530": {
+        "tag": "0530",
+        "name": "Flight Number",
+        "page": 15
+    },
+    "0531": {
+        "tag": "0531",
+        "name": "Departure Time",
+        "page": 15
+    },
+    "0532": {
+        "tag": "0532",
+        "name": "Total Charges",
+        "page": 15
+    },
+    "0533": {
+        "tag": "0533",
+        "name": "Arrival Time",
+        "page": 15
+    },
+    "0534": {
+        "tag": "0534",
+        "name": "Total Non-Room Charges",
+        "page": 15
+    },
+    "0535": {
+        "tag": "0535",
+        "name": "Fare",
+        "page": 15
+    },
+    "0536": {
+        "tag": "0536",
+        "name": "Fee",
+        "page": 15
+    },
+    "0537": {
+        "tag": "0537",
+        "name": "Taxes",
+        "page": 15
+    },
+    "0538": {
+        "tag": "0538",
+        "name": "Endorsements/Restrictions",
+        "page": 15
+    },
+    "0539": {
+        "tag": "0539",
+        "name": "Total Amount Charged on Card",
+        "page": 15
+    },
+    "0540": {
+        "tag": "0540",
+        "name": "Room Service Charges",
+        "page": 15
+    },
+    "0541": {
+        "tag": "0541",
+        "name": "Lounge/Bar Charges",
+        "page": 15
+    },
+    "0542": {
+        "tag": "0542",
+        "name": "Transportation Charges",
+        "page": 15
+    },
+    "0543": {
+        "tag": "0543",
+        "name": "Gratuity Charges",
+        "page": 15
+    },
+    "0544": {
+        "tag": "0544",
+        "name": "Rental Agreement Number",
+        "page": 15
+    },
+    "0545": {
+        "tag": "0545",
+        "name": "Renter Name",
+        "page": 15
+    },
+    "0546": {
+        "tag": "0546",
+        "name": "Rental Return City",
+        "page": 15
+    },
+    "0547": {
+        "tag": "0547",
+        "name": "Rental Return State/Province",
+        "page": 15
+    },
+    "0548": {
+        "tag": "0548",
+        "name": "Rental Return Country",
+        "page": 15
+    },
+    "0549": {
+        "tag": "0549",
+        "name": "Rental Return Location ID",
+        "page": 15
+    },
+    "0550": {
+        "tag": "0550",
+        "name": "Rental Return Date",
+        "page": 15
+    },
+    "0551": {
+        "tag": "0551",
+        "name": "Rental Check-Out Date",
+        "page": 15
+    },
+    "0552": {
+        "tag": "0552",
+        "name": "Customer Service Toll-Free [800] Number",
+        "page": 15
+    },
+    "0553": {
+        "tag": "0553",
+        "name": "Rental Rate",
+        "page": 15
+    },
+    "0554": {
+        "tag": "0554",
+        "name": "Conference Room Charges",
+        "page": 15
+    },
+    "0555": {
+        "tag": "0555",
+        "name": "Rate Per Mile [or Per Kilometer]",
+        "page": 15
+    },
+    "0556": {
+        "tag": "0556",
+        "name": "Total Miles [or Kilometers]",
+        "page": 15
+    },
+    "0557": {
+        "tag": "0557",
+        "name": "Maximum Free Miles [or Kilometers]",
+        "page": 15
+    },
+    "0558": {
+        "tag": "0558",
+        "name": "Miles/Kilometers Indicator",
+        "page": 15
+    },
+    "0559": {
+        "tag": "0559",
+        "name": "Vehicle Insurance",
+        "page": 16
+    },
+    "0560": {
+        "tag": "0560",
+        "name": "Audio Visual Charges",
+        "page": 16
+    },
+    "0561": {
+        "tag": "0561",
+        "name": "Adjusted Amount",
+        "page": 16
+    },
+    "0562": {
+        "tag": "0562",
+        "name": "Banquet Charges",
+        "page": 16
+    },
+    "0563": {
+        "tag": "0563",
+        "name": "Program Code",
+        "page": 16
+    },
+    "0564": {
+        "tag": "0564",
+        "name": "Rental Location City",
+        "page": 16
+    },
+    "0565": {
+        "tag": "0565",
+        "name": "Rental Location State/Province",
+        "page": 16
+    },
+    "0566": {
+        "tag": "0566",
+        "name": "Rental Location Country",
+        "page": 16
+    },
+    "0568": {
+        "tag": "0568",
+        "name": "Rental Class ID",
+        "page": 16
+    },
+    "0569": {
+        "tag": "0569",
+        "name": "Internet Access Charges",
+        "page": 16
+    },
+    "0570": {
+        "tag": "0570",
+        "name": "Early Departure Charges",
+        "page": 16
+    },
+    "0571": {
+        "tag": "0571",
+        "name": "Guest Name",
+        "page": 16
+    },
+    "0572": {
+        "tag": "0572",
+        "name": "Guest Number",
+        "page": 16
+    },
+    "0573": {
+        "tag": "0573",
+        "name": "Invoice Number",
+        "page": 16
+    },
+    "0574": {
+        "tag": "0574",
+        "name": "Arrival Date",
+        "page": 16
+    },
+    "0575": {
+        "tag": "0575",
+        "name": "Departure Date",
+        "page": 16
+    },
+    "0576": {
+        "tag": "0576",
+        "name": "Folio Number",
+        "page": 16
+    },
+    "0577": {
+        "tag": "0577",
+        "name": "Property Phone Number",
+        "page": 16
+    },
+    "0578": {
+        "tag": "0578",
+        "name": "Billing Adjustment",
+        "page": 16
+    },
+    "0579": {
+        "tag": "0579",
+        "name": "Invoice Date",
+        "page": 16
+    },
+    "0580": {
+        "tag": "0580",
+        "name": "Room Rate",
+        "page": 16
+    },
+    "0581": {
+        "tag": "0581",
+        "name": "Total Room Tax",
+        "page": 16
+    },
+    "0582": {
+        "tag": "0582",
+        "name": "Program Code",
+        "page": 16
+    },
+    "0583": {
+        "tag": "0583",
+        "name": "Phone Charges",
+        "page": 16
+    },
+    "0584": {
+        "tag": "0584",
+        "name": "Restaurant Charges",
+        "page": 16
+    },
+    "0585": {
+        "tag": "0585",
+        "name": "Mini-Bar Charges",
+        "page": 16
+    },
+    "0586": {
+        "tag": "0586",
+        "name": "Gift Shop Charges",
+        "page": 16
+    },
+    "0587": {
+        "tag": "0587",
+        "name": "Laundry and Dry Cleaning Charges",
+        "page": 16
+    },
+    "0588": {
+        "tag": "0588",
+        "name": "Other Services",
+        "page": 17
+    },
+    "0589": {
+        "tag": "0589",
+        "name": "Invoice Creation Date/Time",
+        "page": 17
+    },
+    "0590": {
+        "tag": "0590",
+        "name": "Party Identification",
+        "page": 17
+    },
+    "0591": {
+        "tag": "0591",
+        "name": "Party Name",
+        "page": 17
+    },
+    "0592": {
+        "tag": "0592",
+        "name": "Party Address",
+        "page": 17
+    },
+    "0593": {
+        "tag": "0593",
+        "name": "Party Postal Information",
+        "page": 17
+    },
+    "0594": {
+        "tag": "0594",
+        "name": "Party Contact",
+        "page": 17
+    },
+    "0595": {
+        "tag": "0595",
+        "name": "Acceptor Type",
+        "page": 17
+    },
+    "0596": {
+        "tag": "0596",
+        "name": "Acceptor Tax ID",
+        "page": 17
+    },
+    "0597": {
+        "tag": "0597",
+        "name": "Total Tax Amount",
+        "page": 17
+    },
+    "0598": {
+        "tag": "0598",
+        "name": "Total Tax Collected Indicator",
+        "page": 17
+    },
+    "0599": {
+        "tag": "0599",
+        "name": "Corporation VAT Number",
+        "page": 17
+    },
+    "0600": {
+        "tag": "0600",
+        "name": "Acceptor Reference Number",
+        "page": 17
+    },
+    "0601": {
+        "tag": "0601",
+        "name": "Party Nature of Filing",
+        "page": 17
+    },
+    "0602": {
+        "tag": "0602",
+        "name": "Party Supplemental Data 1",
+        "page": 17
+    },
+    "0603": {
+        "tag": "0603",
+        "name": "Party Supplemental Data 2",
+        "page": 17
+    },
+    "0604": {
+        "tag": "0604",
+        "name": "Transaction Supplemental Data 1",
+        "page": 17
+    },
+    "0605": {
+        "tag": "0605",
+        "name": "Transaction Supplemental Data 2",
+        "page": 17
+    },
+    "0606": {
+        "tag": "0606",
+        "name": "Freight Amount",
+        "page": 17
+    },
+    "0607": {
+        "tag": "0607",
+        "name": "Duty Amount",
+        "page": 17
+    },
+    "0608": {
+        "tag": "0608",
+        "name": "Destination Postal Code",
+        "page": 17
+    },
+    "0609": {
+        "tag": "0609",
+        "name": "Destination State/Province Code",
+        "page": 17
+    },
+    "0610": {
+        "tag": "0610",
+        "name": "Destination Country Code",
+        "page": 17
+    },
+    "0611": {
+        "tag": "0611",
+        "name": "Sequence Number",
+        "page": 17
+    },
+    "0612": {
+        "tag": "0612",
+        "name": "Ship Date",
+        "page": 17
+    },
+    "0613": {
+        "tag": "0613",
+        "name": "Ship-From Postal Code",
+        "page": 17
+    },
+    "0614": {
+        "tag": "0614",
+        "name": "Order Date",
+        "page": 17
+    },
+    "0615": {
+        "tag": "0615",
+        "name": "Medical Services Ship to Health Industry Number",
+        "page": 17
+    },
+    "0616": {
+        "tag": "0616",
+        "name": "Contract Number",
+        "page": 18
+    },
+    "0617": {
+        "tag": "0617",
+        "name": "Medical Services Price Adjustment",
+        "page": 18
+    },
+    "0619": {
+        "tag": "0619",
+        "name": "User Name",
+        "page": 18
+    },
+    "0620": {
+        "tag": "0620",
+        "name": "Oil Company Brand Name",
+        "page": 18
+    },
+    "0621": {
+        "tag": "0621",
+        "name": "Purchase Time",
+        "page": 18
+    },
+    "0622": {
+        "tag": "0622",
+        "name": "Motor Fuel Service Type",
+        "page": 18
+    },
+    "0623": {
+        "tag": "0623",
+        "name": "Motor Fuel Information",
+        "page": 18
+    },
+    "0624": {
+        "tag": "0624",
+        "name": "User Account Number",
+        "page": 18
+    },
+    "0625": {
+        "tag": "0625",
+        "name": "User Telephone Number",
+        "page": 18
+    },
+    "0626": {
+        "tag": "0626",
+        "name": "Billing Statement Period",
+        "page": 18
+    },
+    "0627": {
+        "tag": "0627",
+        "name": "Billing Event 1",
+        "page": 18
+    },
+    "0628": {
+        "tag": "0628",
+        "name": "Billing Event 2",
+        "page": 18
+    },
+    "0629": {
+        "tag": "0629",
+        "name": "Odometer Reading",
+        "page": 18
+    },
+    "0630": {
+        "tag": "0630",
+        "name": "Vehicle Number",
+        "page": 18
+    },
+    "0631": {
+        "tag": "0631",
+        "name": "Driver Number/ID Number",
+        "page": 18
+    },
+    "0632": {
+        "tag": "0632",
+        "name": "Product Type Code",
+        "page": 18
+    },
+    "0633": {
+        "tag": "0633",
+        "name": "Coupon/Discount Amount",
+        "page": 18
+    },
+    "0634": {
+        "tag": "0634",
+        "name": "Tax Amount 1",
+        "page": 18
+    },
+    "0635": {
+        "tag": "0635",
+        "name": "Tax Amount 2",
+        "page": 18
+    },
+    "0636": {
+        "tag": "0636",
+        "name": "Call Date",
+        "page": 18
+    },
+    "0637": {
+        "tag": "0637",
+        "name": "Call Time",
+        "page": 18
+    },
+    "0638": {
+        "tag": "0638",
+        "name": "Call To Information",
+        "page": 18
+    },
+    "0639": {
+        "tag": "0639",
+        "name": "Call Duration",
+        "page": 18
+    },
+    "0640": {
+        "tag": "0640",
+        "name": "Call Time Period",
+        "page": 18
+    },
+    "0641": {
+        "tag": "0641",
+        "name": "Product Code",
+        "page": 18
+    },
+    "0642": {
+        "tag": "0642",
+        "name": "Item Description",
+        "page": 18
+    },
+    "0643": {
+        "tag": "0643",
+        "name": "Item Quantity",
+        "page": 18
+    },
+    "0644": {
+        "tag": "0644",
+        "name": "Call From Information",
+        "page": 18
+    },
+    "0645": {
+        "tag": "0645",
+        "name": "Item Unit of Measure",
+        "page": 18
+    },
+    "0646": {
+        "tag": "0646",
+        "name": "Unit Price",
+        "page": 18
+    },
+    "0647": {
+        "tag": "0647",
+        "name": "Extended Item Amount",
+        "page": 18
+    },
+    "0648": {
+        "tag": "0648",
+        "name": "Item Discount",
+        "page": 18
+    },
+    "0649": {
+        "tag": "0649",
+        "name": "Call Usage Amount",
+        "page": 19
+    },
+    "0650": {
+        "tag": "0650",
+        "name": "Zero Cost to Customer Indicator",
+        "page": 19
+    },
+    "0651": {
+        "tag": "0651",
+        "name": "Procedure ID",
+        "page": 19
+    },
+    "0652": {
+        "tag": "0652",
+        "name": "Service Type",
+        "page": 19
+    },
+    "0653": {
+        "tag": "0653",
+        "name": "Service Amount",
+        "page": 19
+    },
+    "0654": {
+        "tag": "0654",
+        "name": "Debit or Credit Indicator",
+        "page": 19
+    },
+    "0655": {
+        "tag": "0655",
+        "name": "Call Long Distance Amount",
+        "page": 19
+    },
+    "0656": {
+        "tag": "0656",
+        "name": "Full VAT Amounts",
+        "page": 19
+    },
+    "0657": {
+        "tag": "0657",
+        "name": "Half VAT Amounts",
+        "page": 19
+    },
+    "0658": {
+        "tag": "0658",
+        "name": "Call Connect Amount",
+        "page": 19
+    },
+    "0659": {
+        "tag": "0659",
+        "name": "Other Description",
+        "page": 19
+    },
+    "0660": {
+        "tag": "0660",
+        "name": "Customer Reference",
+        "page": 19
+    },
+    "0661": {
+        "tag": "0661",
+        "name": "Traffic Code",
+        "page": 19
+    },
+    "0662": {
+        "tag": "0662",
+        "name": "Sample Number",
+        "page": 19
+    },
+    "0663": {
+        "tag": "0663",
+        "name": "Free-Form Description",
+        "page": 19
+    },
+    "0664": {
+        "tag": "0664",
+        "name": "Start Station",
+        "page": 19
+    },
+    "0665": {
+        "tag": "0665",
+        "name": "Destination Station",
+        "page": 19
+    },
+    "0667": {
+        "tag": "0667",
+        "name": "Generic Data",
+        "page": 19
+    },
+    "0668": {
+        "tag": "0668",
+        "name": "Reduction Data",
+        "page": 19
+    },
+    "0669": {
+        "tag": "0669",
+        "name": "Transportation Other Code",
+        "page": 19
+    },
+    "0670": {
+        "tag": "0670",
+        "name": "Payer/User Information",
+        "page": 19
+    },
+    "0671": {
+        "tag": "0671",
+        "name": "Date of Funds Requested",
+        "page": 19
+    },
+    "0673": {
+        "tag": "0673",
+        "name": "Date of Anticipated Receipt of Funds",
+        "page": 19
+    },
+    "0674": {
+        "tag": "0674",
+        "name": "Additional Trace/Reference Number Used by Acceptor",
+        "page": 19
+    },
+    "0675": {
+        "tag": "0675",
+        "name": "Additional Transaction Description Data",
+        "page": 19
+    },
+    "0676": {
+        "tag": "0676",
+        "name": "Acceptor VAT Number",
+        "page": 19
+    },
+    "0677": {
+        "tag": "0677",
+        "name": "Customer VAT Number",
+        "page": 19
+    },
+    "0678": {
+        "tag": "0678",
+        "name": "Unique Invoice Number",
+        "page": 19
+    },
+    "0679": {
+        "tag": "0679",
+        "name": "Commodity Code",
+        "page": 19
+    },
+    "0680": {
+        "tag": "0680",
+        "name": "Authorized Contact Name",
+        "page": 19
+    },
+    "0681": {
+        "tag": "0681",
+        "name": "Authorized Contact Phone",
+        "page": 19
+    },
+    "0682": {
+        "tag": "0682",
+        "name": "Detail Tax Amount 1",
+        "page": 19
+    },
+    "0683": {
+        "tag": "0683",
+        "name": "Detail Tax Amount 2",
+        "page": 20
+    },
+    "0684": {
+        "tag": "0684",
+        "name": "Detail Tax Amount 3",
+        "page": 20
+    },
+    "0685": {
+        "tag": "0685",
+        "name": "Type of Supply",
+        "page": 20
+    },
+    "0686": {
+        "tag": "0686",
+        "name": "Tax Exempt Indicator",
+        "page": 20
+    },
+    "0687": {
+        "tag": "0687",
+        "name": "Unique VAT Invoice Reference Number",
+        "page": 20
+    },
+    "0688": {
+        "tag": "0688",
+        "name": "Acceptor Contact E-mail Address",
+        "page": 20
+    },
+    "0689": {
+        "tag": "0689",
+        "name": "Corporate Identifier",
+        "page": 20
+    },
+    "0690": {
+        "tag": "0690",
+        "name": "No Show Indicator",
+        "page": 20
+    },
+    "0691": {
+        "tag": "0691",
+        "name": "Days Rented",
+        "page": 20
+    },
+    "0692": {
+        "tag": "0692",
+        "name": "Weekly Rental Amount",
+        "page": 20
+    },
+    "0693": {
+        "tag": "0693",
+        "name": "Total Authorized Amount",
+        "page": 20
+    },
+    "0694": {
+        "tag": "0694",
+        "name": "One Way Drop Off Charge",
+        "page": 20
+    },
+    "0695": {
+        "tag": "0695",
+        "name": "Regular Mileage Charge",
+        "page": 20
+    },
+    "0696": {
+        "tag": "0696",
+        "name": "Extra Mileage Charge",
+        "page": 20
+    },
+    "0697": {
+        "tag": "0697",
+        "name": "Late Charge",
+        "page": 20
+    },
+    "0698": {
+        "tag": "0698",
+        "name": "Fuel Charge",
+        "page": 20
+    },
+    "0699": {
+        "tag": "0699",
+        "name": "Lodging Total Tax Amount",
+        "page": 20
+    },
+    "0700": {
+        "tag": "0700",
+        "name": "Towing Charges",
+        "page": 20
+    },
+    "0701": {
+        "tag": "0701",
+        "name": "Extra Charges",
+        "page": 20
+    },
+    "0702": {
+        "tag": "0702",
+        "name": "Other Charges",
+        "page": 20
+    },
+    "0703": {
+        "tag": "0703",
+        "name": "Total Room Nights",
+        "page": 20
+    },
+    "0704": {
+        "tag": "0704",
+        "name": "Prepaid Expenses",
+        "page": 20
+    },
+    "0705": {
+        "tag": "0705",
+        "name": "Total Non-Room Tax Amount",
+        "page": 20
+    },
+    "0706": {
+        "tag": "0706",
+        "name": "Cash Advances",
+        "page": 20
+    },
+    "0707": {
+        "tag": "0707",
+        "name": "Valet Charges",
+        "page": 20
+    },
+    "0708": {
+        "tag": "0708",
+        "name": "Movie Charges",
+        "page": 20
+    },
+    "0709": {
+        "tag": "0709",
+        "name": "Business Center Charges",
+        "page": 20
+    },
+    "0710": {
+        "tag": "0710",
+        "name": "Health Club Charges",
+        "page": 20
+    },
+    "0711": {
+        "tag": "0711",
+        "name": "Fire Safety Act Indicator",
+        "page": 20
+    },
+    "0712": {
+        "tag": "0712",
+        "name": "Net Fuel Price",
+        "page": 20
+    },
+    "0713": {
+        "tag": "0713",
+        "name": "Restricted Ticket Indicator",
+        "page": 21
+    },
+    "0714": {
+        "tag": "0714",
+        "name": "Exchange Ticket Amount",
+        "page": 21
+    },
+    "0715": {
+        "tag": "0715",
+        "name": "Ancillary Service Charges",
+        "page": 21
+    },
+    "0716": {
+        "tag": "0716",
+        "name": "Travel Authorization Code",
+        "page": 21
+    },
+    "0717": {
+        "tag": "0717",
+        "name": "IATA Client Code",
+        "page": 21
+    },
+    "0718": {
+        "tag": "0718",
+        "name": "Employee/Temp Name/ID",
+        "page": 21
+    },
+    "0719": {
+        "tag": "0719",
+        "name": "Employee Social Security Number or ID",
+        "page": 21
+    },
+    "0720": {
+        "tag": "0720",
+        "name": "Job Description",
+        "page": 21
+    },
+    "0721": {
+        "tag": "0721",
+        "name": "Job Code",
+        "page": 21
+    },
+    "0722": {
+        "tag": "0722",
+        "name": "Flat Rate Indicator",
+        "page": 21
+    },
+    "0723": {
+        "tag": "0723",
+        "name": "Regular Hours Worked",
+        "page": 21
+    },
+    "0724": {
+        "tag": "0724",
+        "name": "Regular Hours Rate",
+        "page": 21
+    },
+    "0725": {
+        "tag": "0725",
+        "name": "Overtime Hours Worked",
+        "page": 21
+    },
+    "0726": {
+        "tag": "0726",
+        "name": "Overtime Hours Rate",
+        "page": 21
+    },
+    "0727": {
+        "tag": "0727",
+        "name": "Temp Start Date",
+        "page": 21
+    },
+    "0728": {
+        "tag": "0728",
+        "name": "Temp Week Ending",
+        "page": 21
+    },
+    "0729": {
+        "tag": "0729",
+        "name": "Requestor Name or ID",
+        "page": 21
+    },
+    "0730": {
+        "tag": "0730",
+        "name": "Supervisor/Reports to",
+        "page": 21
+    },
+    "0731": {
+        "tag": "0731",
+        "name": "Time Sheet Number",
+        "page": 21
+    },
+    "0732": {
+        "tag": "0732",
+        "name": "Discount Amount",
+        "page": 21
+    },
+    "0733": {
+        "tag": "0733",
+        "name": "Subtotal Amount",
+        "page": 21
+    },
+    "0734": {
+        "tag": "0734",
+        "name": "Miscellaneous Expenses",
+        "page": 21
+    },
+    "0735": {
+        "tag": "0735",
+        "name": "Service Descriptor Codes",
+        "page": 21
+    },
+    "0736": {
+        "tag": "0736",
+        "name": "Tracking Number or Pickup Number",
+        "page": 21
+    },
+    "0737": {
+        "tag": "0737",
+        "name": "Shipping Net Amounts",
+        "page": 21
+    },
+    "0738": {
+        "tag": "0738",
+        "name": "Incentive Amount",
+        "page": 21
+    },
+    "0739": {
+        "tag": "0739",
+        "name": "Pickup Date",
+        "page": 21
+    },
+    "0740": {
+        "tag": "0740",
+        "name": "Delivery Date",
+        "page": 21
+    },
+    "0741": {
+        "tag": "0741",
+        "name": "Number of Packages",
+        "page": 21
+    },
+    "0742": {
+        "tag": "0742",
+        "name": "Package Weight",
+        "page": 21
+    },
+    "0743": {
+        "tag": "0743",
+        "name": "Unit of Measure",
+        "page": 21
+    },
+    "0744": {
+        "tag": "0744",
+        "name": "Shipping Party Information",
+        "page": 21
+    },
+    "0745": {
+        "tag": "0745",
+        "name": "Shipping Party Address",
+        "page": 22
+    },
+    "0746": {
+        "tag": "0746",
+        "name": "Shipping Party Postal Information",
+        "page": 22
+    },
+    "0747": {
+        "tag": "0747",
+        "name": "Shipping Party Contact",
+        "page": 22
+    },
+    "0748": {
+        "tag": "0748",
+        "name": "Delivery Party Information",
+        "page": 22
+    },
+    "0749": {
+        "tag": "0749",
+        "name": "Delivery Party Address Information",
+        "page": 22
+    },
+    "0750": {
+        "tag": "0750",
+        "name": "Delivery Party Postal Information",
+        "page": 22
+    },
+    "0751": {
+        "tag": "0751",
+        "name": "Detail Tax Amount 4",
+        "page": 22
+    },
+    "0752": {
+        "tag": "0752",
+        "name": "Detail Tax Amount 5",
+        "page": 22
+    },
+    "0753": {
+        "tag": "0753",
+        "name": "Detail Tax Amount 6",
+        "page": 22
+    },
+    "0754": {
+        "tag": "0754",
+        "name": "Delivery Party Contact",
+        "page": 22
+    },
+    "0755": {
+        "tag": "0755",
+        "name": "Line Item Total Amount",
+        "page": 22
+    },
+    "0756": {
+        "tag": "0756",
+        "name": "Passenger Description",
+        "page": 22
+    },
+    "0757": {
+        "tag": "0757",
+        "name": "Transportation Service Provider",
+        "page": 22
+    },
+    "0758": {
+        "tag": "0758",
+        "name": "Transportation Services Offered",
+        "page": 22
+    },
+    "0759": {
+        "tag": "0759",
+        "name": "Delivery Order Number",
+        "page": 22
+    },
+    "0760": {
+        "tag": "0760",
+        "name": "Credit Card Slip Number",
+        "page": 22
+    },
+    "0761": {
+        "tag": "0761",
+        "name": "Travel Agency ID",
+        "page": 22
+    },
+    "0762": {
+        "tag": "0762",
+        "name": "Data Source",
+        "page": 22
+    },
+    "0763": {
+        "tag": "0763",
+        "name": "VAT Suppression Indicator",
+        "page": 22
+    },
+    "0764": {
+        "tag": "0764",
+        "name": "Healthcare Eligible Status Indicator",
+        "page": 22
+    },
+    "0765": {
+        "tag": "0765",
+        "name": "MoneySend Receiver Data",
+        "page": 22
+    },
+    "0770": {
+        "tag": "0770",
+        "name": "Additional Acceptor Inquiry Information",
+        "page": 22
+    },
+    "0771": {
+        "tag": "0771",
+        "name": "Cost Center Information",
+        "page": 23
+    },
+    "0772": {
+        "tag": "0772",
+        "name": "Driver License/State Issued ID Information",
+        "page": 23
+    },
+    "0773": {
+        "tag": "0773",
+        "name": "Payment Method Information",
+        "page": 23
+    },
+    "0774": {
+        "tag": "0774",
+        "name": "Stock Keeping Unit (SKU",
+        "page": 23
+    },
+    "0775": {
+        "tag": "0775",
+        "name": "Department Code",
+        "page": 23
+    },
+    "0776": {
+        "tag": "0776",
+        "name": "Alternate Custom Identifier",
+        "page": 23
+    },
+    "0777": {
+        "tag": "0777",
+        "name": "Promotion Code",
+        "page": 23
+    },
+    "0781": {
+        "tag": "0781",
+        "name": "Fleet Spend Control Enforced",
+        "page": 23
+    },
+    "0782": {
+        "tag": "0782",
+        "name": "Fleet Fuel Information",
+        "page": 23
+    },
+    "0783": {
+        "tag": "0783",
+        "name": "Fleet Product Code",
+        "page": 23
+    },
+    "0784": {
+        "tag": "0784",
+        "name": "Fleet Item Description",
+        "page": 23
+    },
+    "0785": {
+        "tag": "0785",
+        "name": "Fleet Item Quantity",
+        "page": 23
+    },
+    "0786": {
+        "tag": "0786",
+        "name": "Fleet Item Unit of Measure",
+        "page": 23
+    },
+    "0787": {
+        "tag": "0787",
+        "name": "Fleet Extended Item Amount",
+        "page": 23
+    },
+    "0790": {
+        "tag": "0790",
+        "name": "Fleet Prompted Data 1",
+        "page": 23
+    },
+    "0791": {
+        "tag": "0791",
+        "name": "Fleet Prompted Data 2",
+        "page": 23
+    },
+    "0792": {
+        "tag": "0792",
+        "name": "Fleet Prompted Data 3",
+        "page": 23
+    },
+    "0793": {
+        "tag": "0793",
+        "name": "Fleet Prompted Data 4",
+        "page": 23
+    },
+    "0794": {
+        "tag": "0794",
+        "name": "Fleet Prompted Data 5",
+        "page": 24
+    },
+    "0799": {
+        "tag": "0799",
+        "name": "Test Case Traceability Identifiers",
+        "page": 24
+    },
+    "1046": {
+        "tag": "1046",
+        "name": "Member-to-Member Proprietary Data",
+        "page": 111
+    },
+    "0567": {
+        "tag": "0567",
+        "name": "Rental Location ID",
+        "page": 912
+    },
+    "0618": {
+        "tag": "0618",
+        "name": "Medical Services Product Number Qualifier",
+        "page": 991
+    },
+    "1000": {
+        "tag": "1000",
+        "name": "Member-to-Member Proprietary Data",
+        "page": 1310
+    }
+}
