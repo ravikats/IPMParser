@@ -13,7 +13,8 @@ Rule schema (see metadata/compliance_rules.json):
           "description": "Human readable description",
           "severity": "ERROR" | "WARN",
           "type": "required" | "min_length" | "max_length"
-                  | "subfield_min_length" | "subfield_max_length",
+                  | "subfield_min_length" | "subfield_max_length"
+                  | "subelement_min_length" | "subelement_max_length",
           "path": "dotted.path.to.field",
           "mtis": ["1240"],        // optional: only evaluate for these MTIs
           "strip": true,           // optional: strip whitespace before checking
@@ -158,6 +159,56 @@ class RulesEngine:
                 )
             return None
 
+        if rtype in ("subelement_min_length", "subelement_max_length"):
+            if value is None:
+                return None
+            element = self._extract_subelement(value, rule["element"])
+            if element is None:
+                return (
+                    f"{rule['description']}: subelement {rule['element']} "
+                    f"is missing (field '{rule['path']}')"
+                )
+            text = element.strip() if rule.get("strip") else element
+            length = int(rule["min"] if rtype == "subelement_min_length" else rule["max"])
+            if rtype == "subelement_min_length" and len(text) < length:
+                return (
+                    f"{rule['description']}: subelement {rule['element']} "
+                    f"is {len(text)} characters, shorter than min length {length} "
+                    f"(field '{rule['path']}')"
+                )
+            if rtype == "subelement_max_length" and len(text) > length:
+                return (
+                    f"{rule['description']}: subelement {rule['element']} "
+                    f"is {len(text)} characters, exceeds max length {length} "
+                    f"(field '{rule['path']}')"
+                )
+            return None
+
+        return None
+
+    @staticmethod
+    def _extract_subelement(value: Any, element_id: str) -> str | None:
+        """Return the value of subelement ``element_id`` from a DE value
+        encoded as concatenated ``<3-digit ID><3-digit length><value>`` chunks.
+
+        Returns None if the element is absent or the encoding is malformed.
+        """
+        text = str(value)
+        pos = 0
+        n = len(text)
+        while pos + 6 <= n:
+            sid = text[pos:pos + 3]
+            length_part = text[pos + 3:pos + 6]
+            if not length_part.isdigit():
+                return None
+            vlen = int(length_part)
+            start = pos + 6
+            end = start + vlen
+            if sid == element_id:
+                return text[start:end] if end <= n else text[start:]
+            if end > n:
+                return None
+            pos = end
         return None
 
     def evaluate_file(self, records: list[dict[str, Any]]) -> list[ComplianceViolation]:

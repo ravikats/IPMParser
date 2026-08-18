@@ -210,24 +210,22 @@
       "mtis": ["1240"]
     },
     {
-      "id": "DE105_SUBFIELD1_LENGTH",
-      "description": "DE 105 subelement 01 must be exactly 22 positions",
+      "id": "DE105_SUBELEMENT1_MIN_LENGTH",
+      "description": "DE 105 subelement 001 must be at least 22 positions",
       "severity": "ERROR",
-      "type": "subfield_min_length",
+      "type": "subelement_min_length",
       "path": "fields.105",
-      "delimiter": "\\",
-      "subfield": 1,
+      "element": "001",
       "min": 22,
       "mtis": ["1240"]
     },
     {
-      "id": "DE105_SUBFIELD1_MAX_LENGTH",
-      "description": "DE 105 subelement 01 must be exactly 22 positions",
+      "id": "DE105_SUBELEMENT1_MAX_LENGTH",
+      "description": "DE 105 subelement 001 may not exceed 22 positions",
       "severity": "ERROR",
-      "type": "subfield_max_length",
+      "type": "subelement_max_length",
       "path": "fields.105",
-      "delimiter": "\\",
-      "subfield": 1,
+      "element": "001",
       "max": 22,
       "mtis": ["1240"]
     }
