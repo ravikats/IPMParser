@@ -1,15 +1,20 @@
 [Unit]
-Description=Mastercard IPM file watcher and validator
+Description=Mastercard IPM File Watcher and Validator
 After=network.target
 
 [Service]
 Type=simple
 WorkingDirectory=/opt/ipm-watch
-ExecStart=/opt/ipm-watch/venv/bin/python /opt/ipm-watch/watch_ipm.py \
+
+ExecStart=/opt/ipm-watch/ipm-watch \
     --watch /vp-switch/OUTPUT \
-    --out /vp-switch/IPMLOGS \
+    --out /vp-switch/IPMOUT \
     --prefix TESTR \
-    --interval 5
+    --no-jsonl \
+    --mail-config /Netset/Network_Settlement/config.env \
+    --rules /Netset/Network_Settlement/compliance_rules.json \
+    --interval 60
+
 Restart=on-failure
 RestartSec=5
 

@@ -380,7 +380,10 @@ class Watcher:
 
 
 def main():
-    script_dir = Path(__file__).resolve().parent
+    if getattr(sys, "frozen", False):
+        script_dir = Path(sys._MEIPASS)
+    else:
+        script_dir = Path(__file__).resolve().parent
 
     parser = argparse.ArgumentParser(description="Watch for new IPM files")
     parser.add_argument("--watch", default=r"D:\Vaultspay\IPM", help="Directory to watch")

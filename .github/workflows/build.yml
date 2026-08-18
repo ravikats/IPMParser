@@ -20,7 +20,9 @@ jobs:
         run: python -m pip install --upgrade pip pyinstaller
 
       - name: Build binary
-        run: pyinstaller --onefile --name ipm-watch watch_ipm.py
+        run: pyinstaller --onefile --name ipm-watch \
+             --add-data "metadata:metadata" \
+             watch_ipm.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
