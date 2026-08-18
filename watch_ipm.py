@@ -229,6 +229,10 @@ def send_compliance_notification(source_name, csv_path, flagged, mail_config, fa
 def write_outputs(filename, out_dir, pipeline, errors_only=False, skip_jsonl=False):
     """Process ``filename`` and write <name>.csv and <name>.jsonl in out_dir.
 
+    The output base name includes the input file's numeric extension (e.g.
+    TESTR.001 -> TESTR.001.csv) so files that share a stem but differ only
+    by extension don't overwrite each other's output.
+
     ``pipeline`` is the ``(de_metadata, pds_metadata, pds_parser,
     compliance)`` tuple built by ``make_pipeline``.
 
@@ -241,13 +245,12 @@ def write_outputs(filename, out_dir, pipeline, errors_only=False, skip_jsonl=Fal
     (production mode doesn't need it). Default False keeps the existing
     behaviour of always writing the .jsonl file.
     """
-    name = Path(filename).name
-    stem = Path(filename).stem
+    base = Path(filename).name
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    csv_path = out_dir / f"{stem}.csv"
-    jsonl_path = out_dir / f"{stem}.jsonl"
+    csv_path = out_dir / f"{base}.csv"
+    jsonl_path = out_dir / f"{base}.jsonl"
 
     results, file_violations, compliance = process_one(filename, pipeline)
 
