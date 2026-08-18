@@ -11,6 +11,7 @@ ExecStart=/opt/ipm-watch/ipm-watch \
     --out /vp-switch/IPMOUT \
     --prefix TESTR \
     --no-jsonl \
+    --future-only \
     --mail-config /Netset/Network_Settlement/config.env \
     --rules /Netset/Network_Settlement/compliance_rules.json \
     --interval 60

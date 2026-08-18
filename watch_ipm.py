@@ -350,16 +350,24 @@ class Watcher:
         except Exception as ex:
             print(f"ERROR processing {path.name}: {ex}", file=sys.stderr)
 
-    def run(self, once=False):
+    def run(self, once=False, future_only=False):
         print(f"Watching {self.watch_dir} for files starting with {self.prefix}*")
         print(f"Output  -> {self.out_dir}")
         print(f"Rules   -> {self.rules_path}")
         print(f"Interval-> {self.interval}s")
+        if future_only:
+            self.ignore = {p for p in self._candidates()}
+            print(f"Ignoring {len(self.ignore)} existing file(s) at startup "
+                  f"(only future files will be processed)")
+        else:
+            self.ignore = set()
         print("=" * 70)
 
         while True:
             candidates = self._candidates()
             for path in candidates:
+                if path in self.ignore:
+                    continue
                 if path not in self.seen:
                     self._handle(path)
                 else:
@@ -394,6 +402,12 @@ def main():
     parser.add_argument("--rules", default=str(script_dir / "metadata" / "compliance_rules.json"), help="Compliance rules JSON")
     parser.add_argument("--interval", type=float, default=5.0, help="Poll interval in seconds")
     parser.add_argument("--once", action="store_true", help="Process existing files once, then exit")
+    parser.add_argument(
+        "--future-only",
+        action="store_true",
+        help="Skip files already present when the watcher starts; "
+             "only process files that arrive afterwards",
+    )
     parser.add_argument(
         "--errors-only",
         action="store_true",
@@ -435,7 +449,7 @@ def main():
         mail_config=mail_config,
         notify_to=args.notify_to,
     )
-    watcher.run(once=args.once)
+    watcher.run(once=args.once, future_only=args.future_only)
 
 
 if __name__ == "__main__":
