@@ -13,7 +13,6 @@ ExecStart=/opt/ipm-watch/ipm-watch \
     --no-jsonl \
     --mail-config /Netset/Network_Settlement/config.env \
     --rules /Netset/Network_Settlement/compliance_rules.json \
-    --metadata /Netset/Network_Settlement/metadata \
     --interval 60
 
 Restart=on-failure
