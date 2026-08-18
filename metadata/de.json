@@ -150,5 +150,11 @@
     "format": "LLVAR",
     "length": 11,
     "type": "ans"
+  },
+  "105": {
+    "name": "Universal Cardholder Authentication Field Data",
+    "format": "LLVAR",
+    "max_length": 255,
+    "type": "ans"
   }
 }

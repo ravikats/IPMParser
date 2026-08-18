@@ -200,7 +200,37 @@
       "type": "required",
       "path": "fields.94",
       "mtis": ["1240"]
-       }
+       },
+    {
+      "id": "DE105_REQUIRED",
+      "description": "DE 105 (Universal Cardholder Authentication Field Data) is required",
+      "severity": "ERROR",
+      "type": "required",
+      "path": "fields.105",
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE105_SUBFIELD1_LENGTH",
+      "description": "DE 105 subelement 01 must be exactly 22 positions",
+      "severity": "ERROR",
+      "type": "subfield_min_length",
+      "path": "fields.105",
+      "delimiter": "\\",
+      "subfield": 1,
+      "min": 22,
+      "mtis": ["1240"]
+    },
+    {
+      "id": "DE105_SUBFIELD1_MAX_LENGTH",
+      "description": "DE 105 subelement 01 must be exactly 22 positions",
+      "severity": "ERROR",
+      "type": "subfield_max_length",
+      "path": "fields.105",
+      "delimiter": "\\",
+      "subfield": 1,
+      "max": 22,
+      "mtis": ["1240"]
+    }
 
   ],
   "file_rules": [
