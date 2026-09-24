@@ -220,6 +220,14 @@
       "element": "001",
       "max": 22,
       "mtis": ["1240"]
+    },
+    {
+      "id": "MERCHANT_COUNTRY_OF_ORIGIN_REQUIRED",
+      "description": "Merchant Country of Origin (PDS 0213) is required",
+      "severity": "ERROR",
+      "type": "required",
+      "path": "de48_pds.0213.value",
+      "mtis": ["1240"]
     }
   ],
   "file_rules": [
