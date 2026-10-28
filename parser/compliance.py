@@ -82,17 +82,16 @@ class RulesEngine:
             if mtis and record.get("mti") not in mtis:
                 continue
 
-            mccs = rule.get("mccs") or rule.get("merchant_category_codes")
+            mccs = rule.get("mccs") or rule.get("merchant_category_codes") or rule.get("include_mccs")
             if mccs:
                 mcc_path = rule.get("mcc_path", "fields.18")
                 mcc = self._resolve(record, mcc_path)
                 if mcc is None:
-                    pass
-                else:
-                    mcc_str = str(mcc).strip()
-                    allowed = [str(x).strip() for x in mccs]
-                    if mcc_str not in allowed:
-                        continue
+                    continue
+                mcc_str = str(mcc).strip()
+                allowed = [str(x).strip() for x in mccs]
+                if mcc_str not in allowed:
+                    continue
 
             exclude_mccs = rule.get("exclude_mccs") or rule.get("exclude_merchant_category_codes")
             if exclude_mccs:
