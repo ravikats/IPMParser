@@ -222,6 +222,14 @@
       "mtis": ["1240"]
     },
     {
+      "id": "DE94_ORIGINATOR_INSTITUTION_REQUIRED",
+      "description": "DE 94 (Transaction Originator Institution ID Code) is required",
+      "severity": "ERROR",
+      "type": "required",
+      "path": "fields.94",
+      "mtis": ["1240"]
+    },
+    {
       "id": "MERCHANT_COUNTRY_OF_ORIGIN_REQUIRED",
       "description": "Merchant Country of Origin (PDS 0213) is required",
       "severity": "ERROR",
