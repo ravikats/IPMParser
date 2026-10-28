@@ -219,7 +219,7 @@
       "min": 22,
       "mtis": ["1240"]
     },
-    {
+{
       "id": "DE105_SUBELEMENT1_MAX_LENGTH",
       "description": "DE 105 subelement 001 may not exceed 22 positions",
       "severity": "ERROR",
@@ -228,8 +228,16 @@
       "element": "001",
       "max": 22,
       "mtis": ["1240"]
+    },
+    {
+      "id": "MERCHANT_COUNTRY_OF_ORIGIN_REQUIRED",
+      "description": "Merchant Country of Origin (PDS 0213) is required",
+      "severity": "ERROR",
+      "type": "required",
+      "path": "de48_pds.0213.value",
+      "mtis": ["1240"],
+      "exclude_mccs": ["9211", "9222", "9311", "9399", "9402", "9405", "9406"]
     }
-
   ],
   "file_rules": [
     {
